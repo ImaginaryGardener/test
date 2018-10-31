@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Entitlement Setup in <MadCap:variable name="General.ProductName" /></h1>
+        <p>Entitlements setup is accomplished in Reports<MadCap:conditionalText MadCap:conditions="B2B-or-Enterprise.b2bCndx">, Entity setup, </MadCap:conditionalText>and User Setup. Each report is assigned a security model that determines whether the entire report can be seen by anyone with access to it, or whether page-level security will further restrict user access. Reports requiring page-level security require steps where entitlement fields are set up in the report. Also, each report is assigned to one or more domains, which are gateways to reports.</p>
+        <p MadCap:conditions="B2B-or-Enterprise.EntrprsCndx">In User setup each user account is given access to domains to determine which reports each person can access. Finally, for page-level reports, users are assigned specific field values that will determine which report pages they can see.</p>
+        <p MadCap:conditions="B2B-or-Enterprise.b2bCndx">Then, in Entity setup each entity is given access to domains, and specific page-level entitlement values are selected. The domains and entitlement values determine which reports and pages each entity and its users can access. Finally, each user is assigned to an entity, and then each user is assigned one or more domains (available domains are passed on via the user's assigned entity) which determine which reports each user can access.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/MiniTOC.flsnp" />
+    </body>
+</html>
