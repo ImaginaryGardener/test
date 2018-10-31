@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="HomePage" style="mc-master-page: url('Resources\MasterPages\HomePage.flmsp');">
+    <head>
+        <link href="Resources/Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="IronSafe's online help home page with local video content" />
+    </head>
+    <body>
+        <div class="topichero">
+            <div class="title-text">
+                <div class="HomeHeroSection">
+                    <div class="centered-text">
+                        <h1 class="whiteheader">Welcome to <MadCap:variable name="General.ProductName" />'s Online Help
+						</h1>
+                        <h2 class="whiteheader">Learn through Videos and Documentation</h2>
+                        <p class="whiteheader">Use the menus above to read about IronSafe, search for content here, and watch videos below.</p>
+                    </div>
+                </div>
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+            </div>
+        </div>
+        <div class="slidingshow">
+            <MadCap:slideshow MadCap:SlidesDisplayed="3" MadCap:AdaptiveHeight="True" MadCap:Navigation="None" MadCap:ShowCaptions="True">
+                <MadCap:slide title="Getting Started">
+                    <p><a href="bGettingStarted/getting_started.htm"><img src="Resources/Images/start_img.png" alt="" class="Slideshow" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="What's New">
+                    <p><a href="bGettingStarted/rsl_notes_42-44b.htm"><img src="Resources/Images/new_img.png" alt="" class="Slideshow" style="width: 135px;height: 135px;" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="FAQs">
+                    <p><a href="bGettingStarted/FAQ.htm"><img src="Resources/Images/faq_img.png" alt="" class="Slideshow" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="Download PDF Admin Guide" MadCap:conditions="UserRoles.UsrSuprCndx">
+                    <p><a href="PDF/IronSafe_User_Guide.pdf"><img src="Resources/Images/book.png" title="IronSafe Administrator Guide PDF" alt="IronSafe Administrator Guide PDF Image" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="Download PDF User Guide">
+                    <p><a href="PDF/IronSafe_User_Guide.pdf"><img src="Resources/Images/book.png" title="IronSafe User Guide PDF" alt="IronSafe User Guide PDF Image" /></a>
+                    </p>
+                </MadCap:slide>
+            </MadCap:slideshow>
+        </div>
+        <div id="content-section" class="mc-blurb">
+            <div class="video-section">
+                <h2 class="SubCenter">Videos: Fast Track to Learn about IronSafe </h2>
+                <div class="HomeVideoSection outer-row center">
+                    <div>
+                        <div class="video-wrapper">
+                            <object src="https://vimeo.com/205451186" class="video" MadCap:Param_byline="false" MadCap:Param_portrait="false" MadCap:Param_title="false" title="Basic navigation in IronSafe: Find, open, and work with reports; search within report versions; set up favorites.">
+                            </object>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="video-wrapper">
+                            <object src="https://vimeo.com/205450904" class="video" MadCap:Param_byline="false" MadCap:Param_portrait="false" MadCap:Param_title="false" title="How to search for content in multiple reports; download to PDF select pages with search hits; send pages with search hits." style="left: 1px;top: 0px;">
+                            </object>
+                        </div>
+                    </div>
+                </div>
+                <div class="HomeVideoSection outer-row center">
+                    <div>
+                        <div class="video-wrapper">
+                            <object src="https://vimeo.com/205450628" class="video" MadCap:Param_byline="false" MadCap:Param_portrait="false" MadCap:Param_title="false" title="Organize and categorize your reports for quick access.">
+                            </object>
+                        </div>
+                    </div>
+                    <div MadCap:conditions="UserRoles.UsrSuprCndx">
+                        <div class="video-wrapper">
+                            <object src="https://vimeo.com/280965715" class="video" MadCap:Param_byline="false" MadCap:Param_portrait="false" MadCap:Param_title="false" title="Create specific search fields in reports to give users the option to search for content only within those fields on specific reports.">
+                            </object>
+                        </div>
+                    </div>
+                    <div>
+                        <p>&#160;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
